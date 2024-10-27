@@ -1,5 +1,5 @@
 This is readme.md under docs. 
-- This is the root webpage, as the source for github pages for this repo is set to "docs"
+- This is the root webpage for the repo source-mainbranch-docs, as the source for github pages for this repo is set to "docs"
 - Any files or folders above the "docs" folder will not be accessible through the github-pages.
 -  Folders under this folder will be available.
 -  To use jekyll themes and add other config, we use _config.yml in this directory but it is not a requirement.
