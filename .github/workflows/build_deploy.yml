@@ -1,0 +1,16 @@
+name: build and deploy a static site
+on:
+  workflow_dispatch
+jobs:   
+  job1: 
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    name: call the reusable workflow
+    uses: deploy-static-websites/workflows/.github/workflows/build_deploy.yml@main
+    with:
+      build_source: ./
+      build_destination: ./_site
+      builder: jekyll
+      deploy_to: gh-pages
