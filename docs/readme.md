@@ -4,4 +4,4 @@ This is readme.md under docs.
 -  Folders under this folder will be available.
 -  To use jekyll themes and add other config, we use _config.yml in this directory but it is not a requirement.
 -  If we have a .nojekyll file in this directory, the readme.md will not show up by default. However, typing "/readme.md" at the root of the weblink in the browser will show it.
-- [check level1]({% link /source-mainbranch-docs/level1 %})
+- [check level1]( https://deploy-static-websites.github.io/source-mainbranch-docs/level1 )
